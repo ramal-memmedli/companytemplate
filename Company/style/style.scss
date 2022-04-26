@@ -398,7 +398,8 @@ body {
                 .card-gallery {
                     width: 100%;
                     display: flex;
-                    justify-content: space-between;
+                    flex-direction: column;
+                    height: 200vh;
                     flex-wrap: wrap;
 
                     .card {
